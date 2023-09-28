@@ -1,0 +1,35 @@
+./program_name is the name of the compiled program.
+input.txt is the name of the text file you want to analyze.
+Output Format:
+The program will output the number of spaces (whitespace characters) found in the specified text file. The output will be displayed in the terminal. For example:
+#include<fcntl.h>
+
+#include<unistd.h>
+
+#include<stdio.h>
+
+main(int argc, char *argv[])
+
+1 FILE *fp;
+
+char ch; int sc=0;
+
+fp=fopen(argv[1].""):
+
+if(fp==NULL) printf("unable to open a file".argv[1]):
+
+else
+
+1
+
+while(!feof(fp))
+
+} ch=fgete(fp):
+
+if(ch=='')
+
+sc++:
+
+printf("no of spaces %d".sc): printf("\n"); felose(fp): 
+ChatGPT
+It appears that you've provided a code snippet written in C, but there are several syntax errors and issues in the code. Here's a corrected version of the code with explanations of the changes:
